@@ -9,8 +9,8 @@
   --bg-2: #1c0a10;
   --surface: rgba(42, 12, 22, 0.7);
   --border: rgba(255, 255, 255, 0.08);
-  --text: #f8e9ec;
-  --muted: #c9a3ab;
+  --text: #f6dde2;
+  --muted: #d1a0ad;
   --accent-1: #f08a9c;   /* rose */
   --accent-2: #c2304f;   /* burgundy */
   --accent-3: #e0a458;   /* warm gold */
@@ -201,7 +201,7 @@ a {
 
 .btn--solid {
   background: linear-gradient(90deg, #8a1f3a, var(--accent-2));
-  color: #fff;
+  color: #fbe6ea;
 }
 
 .btn--solid:hover {
