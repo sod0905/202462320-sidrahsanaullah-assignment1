@@ -21,7 +21,7 @@ function setGreeting() {
     text = "Good evening";
   }
 
-  document.getElementById("greeting").textContent = text + " — welcome to my portfolio";
+  document.getElementById("greeting").textContent = text + "! Welcome to my portfolio :)";
 }
 
 /* 2. Theme toggle */
