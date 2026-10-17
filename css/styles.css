@@ -5,30 +5,30 @@
 
 /*  1. Design tokens (colors, spacing, etc.) */
 :root {
-  --bg-1: #0a0f1f;
-  --bg-2: #0d1226;
-  --surface: rgba(15, 18, 43, 0.7);
+  --bg-1: #12060a;
+  --bg-2: #1c0a10;
+  --surface: rgba(42, 12, 22, 0.7);
   --border: rgba(255, 255, 255, 0.08);
-  --text: #e6f1ff;
-  --muted: #a8b2d1;
-  --accent-1: #6ef5ff;
-  --accent-2: #7b61ff;
-  --accent-3: #ff6ee7;
+  --text: #f8e9ec;
+  --muted: #c9a3ab;
+  --accent-1: #f08a9c;   /* rose */
+  --accent-2: #c2304f;   /* burgundy */
+  --accent-3: #e0a458;   /* warm gold */
   --radius: 16px;
   --max-width: 980px;
 }
 
 /* Light theme: the JS adds data-theme="light" to <html> */
 html[data-theme="light"] {
-  --bg-1: #f7f8fc;
-  --bg-2: #eceffa;
+  --bg-1: #fbf5f6;
+  --bg-2: #f3e6e9;
   --surface: #ffffff;
-  --border: rgba(10, 15, 31, 0.1);
-  --text: #101426;
-  --muted: #4d5673;
-  --accent-1: #0f8ea3;
-  --accent-2: #5b43e0;
-  --accent-3: #c02fa5;
+  --border: rgba(60, 10, 25, 0.12);
+  --text: #2a0d15;
+  --muted: #6e4a53;
+  --accent-1: #8a1f3a;   /* burgundy */
+  --accent-2: #6d1228;   /* deep wine */
+  --accent-3: #b5651d;   /* bronze */
 }
 
 /*  2. Base */
@@ -200,7 +200,7 @@ a {
 }
 
 .btn--solid {
-  background: linear-gradient(90deg, var(--accent-2), var(--accent-3));
+  background: linear-gradient(90deg, #8a1f3a, var(--accent-2));
   color: #fff;
 }
 
