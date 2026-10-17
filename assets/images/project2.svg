@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-label="Fitness App placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-label="Fitness App project preview">
   <defs>
-    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ff6ee7"/>
-      <stop offset="100%" stop-color="#7b61ff"/>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5e1226"/>
+      <stop offset="1" stop-color="#c2304f"/>
     </linearGradient>
   </defs>
-  <rect width="600" height="300" fill="#0d1226"/>
-  <rect width="600" height="300" fill="url(#g2)" opacity="0.65"/>
-  <text x="300" y="160" text-anchor="middle" font-family="Space Grotesk, system-ui, sans-serif"
-        font-size="34" font-weight="700" fill="#ffffff">Fitness App</text>
+  <rect width="600" height="300" fill="url(#g)"/>
+  <text x="300" y="160" text-anchor="middle" font-family="Space Grotesk, Inter, system-ui, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Fitness App</text>
 </svg>
